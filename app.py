@@ -85,7 +85,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-image = Image.open('images/logo.png')
+image = Image.open('images1/logo.png')
 
 st.markdown(
     """
@@ -142,17 +142,17 @@ st.markdown("<h2>Prediction</h2>", unsafe_allow_html=True)
 if tweet_input:
     prediction = custom_input_prediction(tweet_input)
     if prediction == "Age":
-        st.image("images/age_cyberbullying.png", use_column_width=True, caption="Age Cyberbullying")
+        st.image("images1/age_cyberbullying.png", use_column_width=True, caption="Age Cyberbullying")
     elif prediction == "Ethnicity":
-        st.image("images/ethnicity_cyberbullying.png", use_column_width=True, caption="Ethnicity Cyberbullying")
+        st.image("images1/ethnicity_cyberbullying.png", use_column_width=True, caption="Ethnicity Cyberbullying")
     elif prediction == "Gender":
-        st.image("images/gender_cyberbullying.png", use_column_width=True, caption="Gender Cyberbullying")
+        st.image("images1/gender_cyberbullying.png", use_column_width=True, caption="Gender Cyberbullying")
     elif prediction == "Not Cyberbullying":
-        st.image("images/not_cyberbullying.png", use_column_width=True, caption="Not Cyberbullying")
+        st.image("images1/not_cyberbullying.png", use_column_width=True, caption="Not Cyberbullying")
     elif prediction == "Other Cyberbullying":
-        st.image("images/other_cyberbullying.png", use_column_width=True, caption="Other Cyberbullying")
+        st.image("images1/other_cyberbullying.png", use_column_width=True, caption="Other Cyberbullying")
     elif prediction == "Religion":
-        st.image("images/religion_cyberbullying.png", use_column_width=True, caption="Religion Cyberbullying")
+        st.image("images1/religion_cyberbullying.png", use_column_width=True, caption="Religion Cyberbullying")
 else:
     st.markdown("<p>No Tweet Text Entered!</p>", unsafe_allow_html=True)
 
