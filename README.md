@@ -19,7 +19,7 @@ It predicts the nature of the tweet into 6 Categories.
     * Removing Stopwords, puctuations, URLs, etc
     * Performed Stemming and Lemmatization.
 * Automated the process of preprocessing by creating functions. Which would be helpful in predicting Custom Outputs.
-* https://aryam643.github.io/CyberDect/
+* https://cyberdect.netlify.app/
 * https://aryam643-cyberdect-app-readme-j5bzt4.streamlit.app/
    Created a basic website using html, css, javascript in which user enters the tweet and if it will contain cyberbullied data then it will provide you a pop up tha whether
    the enetered text is cyberbullied or not.
